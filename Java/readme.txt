@@ -1,2 +1,2 @@
-The makejavaeasy.java is a module from -->  https://github.com/virejdasani/Make-Java-Easy
-It makes writing java Easy!
+A module, MakeJavaEasy is used in fizzbuzz.java from -->  https://github.com/virejdasani/Make-Java-Easy
+It makes writing Java Easy!
