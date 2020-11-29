@@ -2,6 +2,8 @@ using System;
 
 class FizzBuzz {
     public static void Main() {
+        //Give prompt for input
+        Console.WriteLine("Enter how far to go for FizzBuzz: ");
         // Read maximum int from stdin
         var max = Int32.Parse(Console.ReadLine());
         
