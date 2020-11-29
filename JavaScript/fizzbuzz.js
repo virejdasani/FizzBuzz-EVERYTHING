@@ -8,4 +8,4 @@ const FizzBuzz = (num) => {
     }
 }
 
-FizzBuzz(18);
+FizzBuzz(100);
