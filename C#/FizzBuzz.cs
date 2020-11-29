@@ -1,11 +1,11 @@
 using System;
 
 class FizzBuzz {
-    public static void Main(string[] args) {
+    public static void Main() {
         // Read maximum int from stdin
         var max = Int32.Parse(Console.ReadLine());
         
-        // Repeat till max is reached
+        // Repeat until max is reached
         for (int i = 1; i <= max; i++)
         {
             var three = (i % 3 == 0);
