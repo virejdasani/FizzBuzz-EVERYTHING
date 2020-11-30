@@ -15,6 +15,8 @@ For counter = 0 to limit step 1
 		Debug.Print("Fizz")
 	ElseIf counter Mod 5 = 0 Then
 		Debug.Print("Buzz")
+	Else
+		Debug.Print(counter)
 	End If
 Next counter
 

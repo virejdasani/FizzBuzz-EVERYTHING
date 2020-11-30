@@ -8,5 +8,7 @@ for (var counter = 0; counter <= limit; counter++) {
     }
     else if (counter % 5 == 0) {
         console.log("Buzz");
+    } else {
+        console.log(counter)
     }
 }
