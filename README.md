@@ -4,4 +4,4 @@
 
 
 - The goal for FizzBuzz-EVERYTHING is to have FizzBuzz written in 100 languages in this repo. We need your help to make this happen!
-- Just 89 more languages to go!
+- Just 87 more languages to go!
