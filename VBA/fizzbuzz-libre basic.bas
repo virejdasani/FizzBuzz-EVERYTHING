@@ -6,7 +6,7 @@ Sub Main
 
 Dim limit as Integer
 
-limit = 10
+limit = 100
 
 For counter = 0 to limit step 1
 	If counter Mod 3 = 0 And counter Mod 5 = 0 Then
