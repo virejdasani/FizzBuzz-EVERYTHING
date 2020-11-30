@@ -1,9 +1,15 @@
 #include <iostream>
+using namespace std;
+
 
 int main()
 {
     int i;
-    for (i = 1; i <= 100; i++)
+    int n;
+    cout << "Enter how far to go for FizzBuzz: ";
+    cin >> n;
+
+    for (i = 1; i <= n; i++)
     {
         if (i % 5 == 0 && i % 3 == 0)
             printf("FizzBuzz\n");
