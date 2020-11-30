@@ -1,4 +1,5 @@
 $limit = 100;
+
 for ($counter = 0; $counter <= $limit; $counter++) {
     if ($counter % 3 == 0 && $counter % 5 == 0) {
         echo("FizzBuzz".PHP_EOL);
