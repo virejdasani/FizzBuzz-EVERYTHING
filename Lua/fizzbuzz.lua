@@ -1,7 +1,8 @@
 print("Enter how far to go on for FizzBuzz: ")
-s = io.read("*n")
+n = io.read("*n")
 
-for i = 1, s do
+for i = 1, n do
+
     if i % 15 == 0 then
         print("FizzBuzz")
     elseif i % 3 == 0 then
