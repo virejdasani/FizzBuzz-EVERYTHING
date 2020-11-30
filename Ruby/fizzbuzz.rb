@@ -5,13 +5,13 @@ def fizzbuzz (number)
 	
 	# FizzBuzz conditional
 	if number % 3 == 0 && number % 5 == 0
-		fizz = "FizzBuzz, " 
+		fizz = "FizzBuzz" 
 	elsif number % 3 == 0
-		fizz = "Fizz, "
+		fizz = "Fizz"
 	elsif number % 5 == 0
-		fizz = "Buzz, "
+		fizz = "Buzz"
 	else
-		fizz = number.to_s + ", "
+		fizz = number.to_s
 	end
 	
 	return fizz
