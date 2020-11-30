@@ -10,4 +10,7 @@ for ($counter = 0; $counter <= $limit; $counter++) {
     else if ($counter % 5 == 0) {
         echo("Buzz".PHP_EOL);
     }
+    else {
+        echo("$counter".PHP_EOL)
+    }
 }

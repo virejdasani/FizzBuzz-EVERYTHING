@@ -12,6 +12,8 @@ for counter in 0:1:100;
         println("Fizz")
     elseif counter % 5 == 0
         println("Buzz")
+    else
+        println(counter)
     end
 end
 

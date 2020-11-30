@@ -7,5 +7,7 @@ for (let counter:number = 0; counter <= limit; counter++){
         console.log("Fizz");
     } else if (counter % 5 == 0) {
         console.log("Buzz");
+    } else {
+        console.log(counter)
     }
 }
