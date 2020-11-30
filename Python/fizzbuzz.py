@@ -1,11 +1,11 @@
 # FizzBuzz
 
 # Getting input from users for the max number to go to for FizzBuzz
-ip = input("Enter the max number to go for FizzBuzz: \n")
+ip = int(input("Enter the max number to go for FizzBuzz: \n"))
 
 # If user inputs a number this is executed
 if (ip != ""):
-    for i in range(1, int(ip) + 1):
+    for i in range(1, ip + 1):
         if (i % 3 == 0 and i%5 == 0):
             print("FizzBuzz")
         elif (i % 3 == 0):
