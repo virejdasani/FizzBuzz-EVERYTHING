@@ -10,4 +10,4 @@ def FizzBuzz(num):
         print(out)
 
 
-FizzBuzz(18)
+FizzBuzz(100)
