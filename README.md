@@ -7,4 +7,4 @@
 - Just 84 more languages to go!
 
 ### Note
-- Refer to CONTRIBUTING.md before contributing👍
+- Refer to [CONTRIBUTING.md](https://github.com/virejdasani/FizzBuzz-EVERYTHING/blob/master/CONTRIBUTING.md) before contributing👍
