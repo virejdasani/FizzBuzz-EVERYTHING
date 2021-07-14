@@ -13,8 +13,12 @@ fizz_buzz <- function(number){
   }
 }
 
-# Get stop value from user
-user_input <- as.integer(readline(prompt="Enter how far to go for FizzBuzz: "))
+if(interactive()) {
+  # Get stop value from user
+  user_input <- as.integer(readline(prompt="Enter how far to go for FizzBuzz: "))
+  } else {
+  user_input <- 100
+}
 
 # Generate a sequence from 1 to the user's entered number
 sequence_one_to_user_input <- seq(from = 1, to = user_input, by = 1)
