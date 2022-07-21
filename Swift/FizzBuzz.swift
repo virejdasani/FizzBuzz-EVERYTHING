@@ -9,15 +9,15 @@ func FizzBuzz(num: Int) {
 	}
 }
 
-//func getInput() -> Int {
-//	if let input = readLine() {
-//		if let int = Int(input) {
-//			return int
-//		}
-//	}
-//	return 100
-//}
+func getUserInput() -> Int {
+	print("Please enter a number: ")
+	if let input = readLine() {
+		if let int = Int(input) {
+			return int
+		}
+	}
+	return 100
+}
 
-//var input = getInput()
-
-FizzBuzz(num: 100)
+var userInput = getUserInput()
+FizzBuzz(num: userInput)
